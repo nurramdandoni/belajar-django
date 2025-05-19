@@ -15,5 +15,6 @@ def about(request):
     }
     
     print(context)
+    print(About.get_all_data())
     
     return HttpResponse(template.render(context,request))

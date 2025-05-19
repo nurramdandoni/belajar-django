@@ -12,5 +12,5 @@ class About(models.Model):
     
     @classmethod
     def get_all_data(self):
-        data = self.objects.all().values()
+        data = "self.objects.all().values()"
         return data
