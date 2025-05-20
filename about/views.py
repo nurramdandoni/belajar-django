@@ -18,3 +18,6 @@ def about(request):
     print(About.get_all_data())
     
     return HttpResponse(template.render(context,request))
+
+def serialize(request):
+    return HttpResponse({"message":"hello"})
